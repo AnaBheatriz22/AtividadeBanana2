@@ -1,4 +1,4 @@
-import BananaFilho from "./BananaFilho"
+import Felca from "./Felca"
 
 function GatoBanana() {
 
@@ -7,7 +7,7 @@ function GatoBanana() {
         <div>
         <h2>Gato Banana</h2>
         <img src={url} alt="Gato Banana" width={400} />
-        <BananaFilho/>
+        <Felca/>
         </div>
     )
 }

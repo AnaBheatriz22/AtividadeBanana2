@@ -1,4 +1,4 @@
-import GatoBanana from "./GatoBanana"
+import BananaAleatorio from "./BananaAleatorio"
 function BananaFilho () {
 
     const url = "https://i.redd.it/yk3isdlpnmu91.jpg"
@@ -6,7 +6,7 @@ function BananaFilho () {
         <div>
             <h2>Banana Filho</h2>
             <img src={url} alt="Banana filho" width={400} />
-            <GatoBanana/>
+            <BananaAleatorio/>
         </div>
     )
 }
